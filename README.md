@@ -1,3 +1,5 @@
+All credit for the below goes to the author of Modus. I'm just changing a couple colors to make things show up better on my Dasung e-ink monitor.
+
 # Modus Themes
 
 [![GitHub Release](https://img.shields.io/github/v/release/miikanissi/modus-themes.nvim)](https://github.com/miikanissi/modus-themes.nvim/releases/latest)
