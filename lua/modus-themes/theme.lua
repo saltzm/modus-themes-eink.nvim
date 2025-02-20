@@ -170,7 +170,7 @@ function M.setup()
 		LspReferenceRead = { bg = c.bg_blue_intense, fg = c.fg_main }, -- used for highlighting "read" references.
 		LspReferenceWrite = { bg = c.bg_blue_intense, fg = c.fg_main }, -- used for highlighting "write" references.
 		LspSignatureActiveParameter = { link = "Visual" },
-		LspInfoBorder = { fg = c.border_highlight, bg = bg_main },
+		LspInfoBorder = { fg = c.border, bg = bg_main },
 
 		-- These are used by the native diagnostics.
 		DiagnosticError = { fg = c.error, bold = true }, -- Used as the base highlight group. Other Diagnostic highlights link to this by default.
@@ -252,7 +252,7 @@ function M.setup()
 		["@keyword.function"] = { link = "Function" }, -- Keywords that define a function (e.g. `func` in Go, `def` in Python).
 		["@keyword.operator"] = { link = "@operator" }, -- Operators that are words (e.g. `and`, `or`).
 		["@keyword.import"] = { link = "Include" }, -- Keywords for including imports (e.g. `import`, `from` in Python).
-		["@keyword.type"] = { link = "@type" }, -- Keywords defining composite types (e.g. `struct`, `enum` in C).
+		["@keyword.type"] = { link = "Structure" }, -- Keywords defining composite types (e.g. `struct`, `enum` in C).
 		["@keyword.modifier"] = { link = "@keyword" }, -- Keywords defining type modifiers (e.g. `const`, `static`, `public`).
 		["@keyword.repeat"] = { link = "Repeat" }, -- Keywords related to loops (e.g. `for`, `while`).
 		["@keyword.return"] = { link = "@keyword" }, -- Keywords like `return` and `yield`.
